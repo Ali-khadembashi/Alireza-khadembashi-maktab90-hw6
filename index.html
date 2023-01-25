@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 
 <body>
@@ -14,10 +16,37 @@
 
     <div class="hero-sec" id="hero-sec">
         <div class="general-padding">
-            <header class="nav-bar" id="nav-bar">header stuff here</header>
+            <!-- Nav bar -->
+
+            <header class="nav-bar flex fl-rw fl-sb fl-al-cen" id=" nav-bar">
+                <div class="logo"></div>
+                <div class="links flex fl-rw fl-sa fl-al-cen">
+                    <a href="http://">home</a>
+                    <a href="http://">Service</a>
+                    <a href="http://">Pricing</a>
+                    <a href="http://">Testimonials</a>
+                    <button>Free Trial</button>
+
+                </div>
+                <div class="burger-men"></div>
+
+
+            </header>
+
             <div class="place-cont">
-                <div class="place-holder"></div>
-                <div class="place-holder" id="hero-isometric">asdasd</div>
+                <div class="hero-left">
+                    <div class="hero-promo-text flex fl-cl fl-sa">
+
+                        <h1>Codext one of the best system in SAAS.</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis incidunt suscipit
+                            molestiae
+                            maiores, a minus doloribus atque velit aut laboriosam! </p>
+                        <button>Try a Live demo</button>
+                    </div>
+
+                </div>
+
+                <div class=" place-holder" id="hero-isometric"></div>
             </div>
         </div>
 
@@ -28,7 +57,42 @@
         <div class="general-padding">
             <div class="place-cont">
                 <div class="place-holder" id="scnd-isometric"></div>
-                <div class="place-holder"></div>
+                <div class=" feat-overview">
+                    <h1>It's helpful for operating system</h1>
+
+                    <div>
+                        <div class="flex fl-rw fl-al-cen">
+                            <div class="arrow arrow1"><ion-icon name="arrow-redo"></ion-icon></div>
+                            <h3>ultra fast</h3>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis animi molestias
+                            magnam
+                            aperiam corporis, repudiandae, error dignissimos blanditiis quisquam modi excepturi</p>
+                    </div>
+
+                    <div>
+                        <div class="flex fl-rw fl-al-cen">
+                            <div class="arrow arrow2"><ion-icon name="arrow-redo"></ion-icon></div>
+                            <h3>ultra fast</h3>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis animi molestias
+                            magnam
+                            aperiam corporis, repudiandae, error dignissimos blanditiis quisquam modi excepturi</p>
+                    </div>
+
+                    <div>
+                        <div class="flex fl-rw fl-al-cen">
+                            <div class="arrow arrow3"><ion-icon name="arrow-redo"></ion-icon></div>
+                            <h3>ultra fast</h3>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis animi molestias
+                            magnam
+                            aperiam corporis, repudiandae, error dignissimos blanditiis quisquam modi excepturi</p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -36,7 +100,7 @@
     <!-- banner here -->
     <div class="banner gradient" id="banner">
         <p class="banner-text headline">
-            we provide buncha shit why don't ya come and have a look
+            we provide best features for customer
         </p>
     </div>
     <!-- prodcut features -->
@@ -82,18 +146,33 @@
                 <div class="price-banner-headline headline">
                     choose your best pricing plan
                 </div>
-                <div>
-                    toggle
+
+
+                <!-- togggle switch -->
+                <div class="yearly-monthly-toggle flex fl-rw fl-sa">
+                    <div>Added for monthly</div>
+                    <div class="toggle-cont">
+                        <label class="switch">
+                            <input type="checkbox">
+                            <span class="slider round"></span>
+                        </label>
+                    </div>
+                    <div>Yearly</div>
                 </div>
+
+
+
                 <!--price option container -->
                 <div class="general-padding">
                     <div class="price-options">
                         <div class="price-option flex fl-cl fl-sa fl-al-cen">
                             <div class="feat-opt-price flex fl-cl fl-sa fl-al-cen">
                                 <section>Start-up</section>
+
                                 <div class="bullet bul-left"></div>
-                                <hr>
+                                <div class="divider"></div>
                                 <div class="bullet bul-right"></div>
+
                                 <div>$10<span class="small-txt">/mo</span></div>
                             </div>
                             <div class="feat-list flex fl-cl fl-sa fl-al-cen">
@@ -110,6 +189,9 @@
                         <div class="price-option flex fl-cl fl-sa fl-al-cen">
                             <div class="feat-opt-price flex fl-cl fl-sa fl-al-cen">
                                 <section>Classic</section>
+                                <div class="bullet bul-left"></div>
+                                <div class="divider"></div>
+                                <div class="bullet bul-right"></div>
                                 <div>$30<span class="small-txt">/mo</span></div>
                             </div>
                             <div class="feat-list flex fl-cl fl-sa fl-al-cen">
@@ -125,14 +207,17 @@
                         </div>
                         <div class="price-option flex fl-cl fl-sa fl-al-cen">
                             <div class="feat-opt-price flex fl-cl fl-sa fl-al-cen">
-                                <section>Premium</section>
+                                <section>Classic</section>
+                                <div class="bullet bul-left"></div>
+                                <div class="divider"></div>
+                                <div class="bullet bul-right"></div>
                                 <div>$49<span class="small-txt">/mo</span></div>
                             </div>
-                            <div class="flex fl-cl fl-sa fl-al-cen">
+                            <div class="feat-list flex fl-cl fl-sa fl-al-cen">
                                 <section>Easy Customization</section>
                                 <section>Reliable connection</section>
-                                <section>40 Servers in Asia</section>
-                                <section>Maximum 20 users</section>
+                                <section>50 Servers in Asia</section>
+                                <section>Maximum 10 users</section>
                             </div>
                             <button>
                                 Try this package
@@ -196,7 +281,12 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- review-slider -->
+                <div class="review-slider-cont flex fl-rw ">
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </div>
             </div>
 
         </div>
@@ -218,9 +308,11 @@
                                 <span>Taken by A</span>
                             </div>
                             <h3>A new look & nre ways to colaborate</h3>
-                            <p class="image-sec-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                            <p class="image-sec-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quidem
                                 numquam fugiat, sapiente
-                                aliquam mollitia repellendus eaque tempore debitis ut veniam maxime esse reprehenderit
+                                aliquam mollitia repellendus eaque tempore debitis ut veniam maxime esse
+                                reprehenderit
                                 quod, laudantium blanditiis quisquam harum beatae error.</p>
                             <button>Find more</button>
                         </div>
@@ -234,9 +326,11 @@
                                 <span>Taken by A</span>
                             </div>
                             <h3>A new look & nre ways to colaborate</h3>
-                            <p class="image-sec-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem
+                            <p class="image-sec-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                Quidem
                                 numquam fugiat, sapiente
-                                aliquam mollitia repellendus eaque tempore debitis ut veniam maxime esse reprehenderit
+                                aliquam mollitia repellendus eaque tempore debitis ut veniam maxime esse
+                                reprehenderit
                                 quod, laudantium blanditiis quisquam harum beatae error.</p>
                             <button>Find more</button>
                         </div>
@@ -253,7 +347,7 @@
             <div class="footer-info">
                 <div class="footer-content foot-contnt-1 flex fl-cl fl-sa">
                     <div class="foot-contnt-1-logo">
-                        asd
+
                     </div>
                     <div class="foot-contnt-1-text">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis odit repudiandae optio
